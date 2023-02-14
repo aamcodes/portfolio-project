@@ -4,10 +4,10 @@
 </script>
 
 <div class="bio-section">
-  <h1>My Biography</h1>
+  <h1>Bio</h1>
   <p>I grew up in Washington Height's and Harlem in New York City. Graduated from Bloomtech (AKA Lambda School) and completed a Highly Fellowship at Formation with Top Tier Engineers in Big Tech companies like Meta, Google, Amazon etc. I'm very passionate about learning, Web3, and whatever passions catch my interest.</p>
 
-  <h2>My Favorite Books</h2>
+  <h2>Favorite Books</h2>
   <ol>
     {#each faveBooks as {name, link}}
       <a href={link} target="_blank" rel="noreferrer">
@@ -16,7 +16,7 @@
     {/each}
   </ol>
 
-  <h2>My Interests and Hobbies</h2>
+  <h2>Interests and Hobbies</h2>
   <ul>
     {#each hobbies as {name}}
         <li>{name}</li>
@@ -43,5 +43,11 @@
 
   ol a:hover {
     color: orange;
+  }
+
+  @media screen and (max-width: 480px) {
+    .bio-section {
+      max-width: 90%;
+    }
   }
 </style>
