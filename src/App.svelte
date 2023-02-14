@@ -1,7 +1,7 @@
 <script lang="ts">
   import Router from 'svelte-spa-router';
-  import Navbar from './lib/Navbar.svelte';
-  import Footer from './lib/Footer.svelte';
+  import Navbar from './comps/Navbar.svelte';
+  import Footer from './comps/Footer.svelte';
 
   // Routes
   import Home from './routes/Home.svelte';
@@ -25,5 +25,6 @@
   <Router {routes}/>
 </main>
 <Footer />
+
 <style>
 </style>

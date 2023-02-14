@@ -10,7 +10,7 @@
     <h1>I'm Aaron</h1>
     <p>I'm a Software Engineer currently working <a target="_blank" href="https://www.clover.com"  rel="noreferrer"><span>@Clover</span></a>.
     </p>
-    <p>Favorite Quote: "No matter what, don't be afraid to fail and never ever ever ever give up."</p>
+    <p>Favorite Quote: "No matter what, don't be afraid to fail and never ever ever ever give up." — ..Someone 🤷‍♂️</p>
   </div>
 </div>
 
@@ -46,5 +46,21 @@
 
   p {
     width: 400px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .home-mission {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    img {
+      border-radius: 50%;
+    }
+
+    p {
+      width: 100%;
+    }
   }
 </style>
