@@ -1,11 +1,11 @@
-<script>
+<script lang="ts">
   import {experiences, academics} from '../lib/Experience'
 </script>
 
 <div class="experience-section">
   <h2>Experience</h2>
   <ul>
-    {#each experiences as {title, company, link}}
+    {#each experiences as {title, company, link}, i}
       <li>
         <h3>{title} <a href={link} target="_blank" rel="noreferrer"><span>@{company}</span></a></h3>
       </li>
