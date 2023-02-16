@@ -1,1 +1,1 @@
-export const projects = [{ name: 'Twidah', github: '', website: '' }];
+export const projects = [];

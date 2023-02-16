@@ -27,4 +27,8 @@
 <Footer />
 
 <style>
+  main {
+    display: flex;
+    justify-content: center;
+  }
 </style>
