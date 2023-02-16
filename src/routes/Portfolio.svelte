@@ -26,8 +26,8 @@
       <p>Website: <a href="https://www.twidah.com" target="_blank" rel="noreferrer">www.underdogdevs.org</a></p>
     </div>
     <div>
-      <h2>JounceIn.com</h2>
       <img src={jounce_logo} alt="Jounce Logo"/>
+      <h2>JounceIn.com</h2>
       <h3>Co-Founder</h3>
       <p>
         Built an educational platform with Next.JS, then Migrated to Remix.js to take advantage of nested routing. Decided to Pivot to where the consumers we are targeting are, and decided on building the mobile App with React Native.
