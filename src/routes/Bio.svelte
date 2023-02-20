@@ -5,7 +5,7 @@
 
 <div class="bio-section">
   <h1>Bio</h1>
-  <p>I grew up in Washington Height's and Harlem in New York City. Graduated from Bloomtech (AKA Lambda School) and completed a Highly Fellowship at Formation with Top Tier Engineers in Big Tech companies like Meta, Google, Amazon etc. I'm very passionate about learning, Web3, and whatever passions catch my interest.</p>
+  <p>I grew up in Washington Height's and Harlem in New York City. Graduated from Bloomtech (AKA Lambda School) and completed a Highly Competitive Fellowship at Formation with Top Tier Engineers in Big Tech companies like Meta, Google, Amazon etc. I'm very passionate about learning, Web3, and whatever passions catch my interest.</p>
 
   <h2>Favorite Books</h2>
   <ol>
