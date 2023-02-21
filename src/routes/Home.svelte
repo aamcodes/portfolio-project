@@ -28,12 +28,11 @@
     box-shadow: 0 0 0 3px black, 0 0 0 4px white;
     height: 200px;
     overflow: hidden;
-    transform: rotate(-45deg) translate(-30px, -30px);
+    transform: rotate(-45deg) translate(-20px, -5px);
     width: 200px;
   }
 
   .home-mission .intro {
-    border-left: 1px solid #191919;
     padding-left: 55px;
     width: 400px;
   }
