@@ -5,6 +5,7 @@ html {
 body {
 	font-size: 1.2rem;
 	font-family: 'Libre Franklin', sans-serif;
+	background-image: radial-gradient(circle, #121212 20%, black 115%);
 	color: rgb(228, 228, 228);
 	margin: 0;
 	min-height: 100vh;

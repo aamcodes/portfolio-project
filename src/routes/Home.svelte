@@ -3,10 +3,10 @@
 </script>
 
 <div class="home-mission">
-  <div>
+  <div class="picture">
     <img src={picture} alt="Aaron" />
   </div>
-  <div>
+  <div class="intro">
     <h1>I'm Aaron</h1>
     <p>I'm a Software Engineer currently working <a target="_blank" href="https://www.clover.com"  rel="noreferrer"><span>@Clover</span></a>.
     </p>
@@ -20,6 +20,27 @@
     justify-content: center;
     align-items: center;
     height: 60vh;
+    transform: translate(30px, 0);
+  }
+
+  .home-mission .picture {
+    border-radius: 60px;
+    box-shadow: 0 0 0 3px black, 0 0 0 4px white;
+    height: 200px;
+    overflow: hidden;
+    transform: rotate(-45deg) translate(-30px, -30px);
+    width: 200px;
+  }
+
+  .home-mission .intro {
+    border-left: 1px solid #191919;
+    padding-left: 55px;
+    width: 400px;
+  }
+
+  .home-mission .intro > p {
+    line-height: 1.375em;
+    text-align: justify;
   }
 
   .home-mission h1 {
@@ -31,9 +52,9 @@
   }
 
   img {
-    width: 200px;
-    height: 200px;
-    border-radius: 1rem;
+    height: 235px;
+    transform: rotate(45deg) translate(-25px, 0px);
+    width: 235px;
   }
 
   p a {
@@ -42,10 +63,6 @@
 
   p span {
     color: rgb(90, 228, 90);
-  }
-
-  p {
-    width: 400px;
   }
 
   @media screen and (max-width: 480px) {
