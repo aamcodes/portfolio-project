@@ -1,5 +1,5 @@
 
-<div>
+<div class="footer">
   <h3>Socials 👇</h3>
 
   <nav>
@@ -11,6 +11,13 @@
 
 <style>
 
+  .footer {
+    bottom: 40px;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+
   h3 {
     text-align: center;
   }
@@ -18,10 +25,6 @@
   nav {
     display: flex;
     justify-content: center;
-  }
-
-  div {
-    margin-bottom: 2rem;
   }
 
   a {
